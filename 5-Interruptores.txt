@@ -1,0 +1,7 @@
+vamos nomear os interruptores como A, B e C, e as salas como sala1, sala2, e sala3
+uma forma de fazer isso seria deixando o interruptor A acesso por 30 minutos, apos esse tempo desligaria o A e ligaria o B, logo em seguida iria para sala1, 
+e verificaria, se a lampada da sala1 esta acessa, logo o B pertence a sala1, se estiver apagada mas a lampada quente, entao a lampada dessa sala é acessa pelo interruptor A, se estiver
+apagada e fria, entao é o interruptor C, vou para sala2 agora e vejo, se estiver acessa entao o interruptor dessa sala é o B, se estiver desligada e quente é o A e desligado e frio é o C,
+conseguimos concluir com essas 2 idas que seguindo essa lógica conseguimos ver todos os cenarios da sala 1 e 2 e o interruptor que sobrar pertence a sala 3, exemplo se a sala 1 estiver 
+com a lampada desligada, mas quente, entao o seu interruptor é o A, e na sala 2 se estiver desligada e fria é o C, sobrando o B para a sala 3.
+Não consegui pensar em uma solução que nao envolvesse verificar a temperatura das lampadas.
